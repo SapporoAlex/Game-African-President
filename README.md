@@ -15,7 +15,7 @@ Welcome to **African President**, a strategy game set in the turbulent 1960s. As
 
 ## Gameplay
 
-In **President's Dilemma**, you must make critical decisions to manage your country's military strength, public order, democracy, and more. The rebels are always a threat, and you must use your resources wisely to keep them at bay while maintaining your authority.
+In **African President**, you must make critical decisions to manage your country's military strength, public order, democracy, and more. The rebels are always a threat, and you must use your resources wisely to keep them at bay while maintaining your authority.
 
 ## Installation
 
