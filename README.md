@@ -1,6 +1,6 @@
 # President's Dilemma: A 1960s Era Strategy Game
 
-<img src="https://github.com/SapporoAlex/Game-African-President/blob/main/preview.jpg" width="20vw" height="auto">
+<img src="https://github.com/SapporoAlex/Game-African-President/blob/main/preview.jpg" width="400px" height="auto">
 
 Welcome to **African President**, a strategy game set in the turbulent 1960s. As the president, you must navigate through various political, social, and military challenges to maintain your grip on power and ensure the stability of your nation.
 
