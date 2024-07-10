@@ -62,7 +62,7 @@ To run the game locally, follow these steps:
 - Random Events: Face unexpected challenges and opportunities that keep the game engaging.
 - Detailed Statistics: Monitor various statistics that reflect the state of your country.
 - Sound Effects and Images: Enjoy an immersive experience with custom sounds and images for different actions and events.
-- 
+
 ### Contributing
 I welcome contributions to enhance the game! If you have suggestions, bug reports, or want to add new features, feel free to open an issue or create a pull request.
 
