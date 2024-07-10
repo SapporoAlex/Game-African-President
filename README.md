@@ -1,4 +1,4 @@
-# President's Dilemma: A 1960s Era Strategy Game
+# African President: A 1960s Era Strategy Game
 
 <img src="https://github.com/SapporoAlex/Game-African-President/blob/main/preview.jpg" width="400px" height="auto">
 
