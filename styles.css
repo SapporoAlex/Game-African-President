@@ -252,6 +252,7 @@ img {
 @media only screen and (max-width: 600px) {
     img {
         width: 30vw;
+        align-items: center;
     }
     .game {
       width: auto;
