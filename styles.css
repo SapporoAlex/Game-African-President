@@ -251,7 +251,7 @@ img {
 
 @media only screen and (max-width: 600px) {
     img {
-        width: 50vw;
+        width: 30vw;
     }
     .game {
       width: auto;
