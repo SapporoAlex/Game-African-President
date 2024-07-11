@@ -935,34 +935,34 @@ function rebelTerroristAttack() {
       playSoundEffect('terrorSound');
       img.src = 'images/terr1.jpg';
       infoText.innerText = `There is news of a terrrorist attack by the rebels. A suicide bomber detonated in a shopping mall, many civilians have been killed! Public order -${publicOrder * 0.4}. Rebel Strength +${rebelStrength * 0.4}`;
-      publicOrder -= publicOrder * 0.4;
-      rebelStrength += rebelStrength * 0.4;
+      publicOrder -= publicOrder * 0.1;
+      rebelStrength += rebelStrength * 0.1;
       updateStats();
       nextButtons(office);
     } else if (randomChoice == 2) {
       playSoundEffect('terrorSound');
       img.src = 'images/terr2.jpg';
       infoText.innerText = `There is news of a terrrorist attack by the rebels. A rebel has rundown a crowd of civilians, many have been killed! Public order -${publicOrder * 0.5}. Rebel Strength +${rebelStrength * 0.5}`;
-      publicOrder -= publicOrder * 0.5;
-      rebelStrength += rebelStrength * 0.5;
+      publicOrder -= publicOrder * 0.2;
+      rebelStrength += rebelStrength * 0.2;
       updateStats();
       nextButtons(office);
     } else if (randomChoice == 3) {
       playSoundEffect('terrorSound');
       img.src = 'images/terr2.jpg';
       infoText.innerText = `There is news of a terrrorist attack by the rebels. A group of rebels has infiltrated a military outpost, civilians in the area are being attacked! Public order -${publicOrder * 0.6}. Rebel Strength +${rebelStrength * 0.6}. Military Strength -${militaryStrength * 0.3}`;
-      publicOrder -= publicOrder * 0.6;
-      rebelStrength += rebelStrength * 0.6;
-      militaryStrength -= militaryStrength * 0.5;
+      publicOrder -= publicOrder * 0.2;
+      rebelStrength += rebelStrength * 0.3;
+      militaryStrength -= militaryStrength * 0.3;
       updateStats();
       nextButtons(office);
     } else if (randomChoice == 4) {
       playSoundEffect('terrorSound');
       img.src = 'images/badAttack.jpg';
       infoText.innerText = `There is news of a terrrorist attack by the rebels. A group of rebels has blown-up a police station, officers have been killed, prisoners released, and civilians in the area are being attacked! Public order -${publicOrder * 0.7}. Rebel Strength +${rebelStrength * 0.7}. Law -${law * 0.4}`;
-      publicOrder -= publicOrder * 0.6;
-      rebelStrength += rebelStrength * 0.6;
-      militaryStrength -= militaryStrength * 0.5;
+      publicOrder -= publicOrder * 0.3;
+      rebelStrength += rebelStrength * 0.3;
+      militaryStrength -= militaryStrength * 0.3;
       updateStats();
       nextButtons(office);
     }
