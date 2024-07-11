@@ -52,7 +52,7 @@ img {
 
 #info-text {
   height: auto;
-  width: 30vw;
+  width: 100%;
   font-size: 1.2rem;
   border: #003605 solid 2px;
   background-color: #005a08da;
