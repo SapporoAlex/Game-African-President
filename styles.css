@@ -248,3 +248,9 @@ img {
   text-align: center;
   color: white; /* Adjust text color as needed */
 }
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 50vw;
+    }
+}
