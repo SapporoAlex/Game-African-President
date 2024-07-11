@@ -41,7 +41,7 @@ var img = document.getElementById("game-image");
 const locations = [
   {
     name: "meet public",
-    "button text": ["Praise the people", "Give a donation to the people (-100)", "Purchase new infrustructure (-500)", "Root out rebels", "Demand reverence", "Back to Office"],
+    "button text": ["Praise the people", "Give a donation to the people (-100)", "Purchase new infrastructure (-500)", "Root out rebels", "Demand reverence", "Back to Office"],
     "button functions": [greetPublic, giveDonation, newInfrastructure, rootOutRebels, warnPeople, office],
     text: "You greet the common people of your nation.",
   },
