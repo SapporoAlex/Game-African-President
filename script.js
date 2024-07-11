@@ -779,15 +779,14 @@ function suspendBanks() {
 function confiscateMoney() {
   img.src = 'images/confiscate.jpg';
   const civMoneyBoost = Math.floor(Math.random() * 20);
-  const civMoney = funds * civMoneyBoost;
   const sadBoost = Math.floor(Math.random() * 10);
-  infoText.innerText = `You confiscate the private funds of your citizens! This will have grave consequences. Funds +${funds}, Democracy -${sadBoost}%, Public Order -${sadBoost}%, Military strength -${sadBoost / 2}%, Law -${sadBoost / 2}%, Rebel Strength +${sadBoost}%.`;
-  funds += civMoney;
-  publicOrder = publicOrder * 0.1;
+  funds += civMoneyBoost;
+  publicOrder -= sadBoost;
   democracy -= sadBoost;
   rebelStrength += sadBoost;
   militaryStrength -= sadBoost / 2;
   law -= sadBoost / 2;
+  infoText.innerText = `You confiscate the private funds of your citizens! This will have grave consequences. Funds +${civMoneyBoost}, Democracy -${sadBoost}%, Public Order -${sadBoost}%, Military strength -${sadBoost / 2}%, Law -${sadBoost / 2}%, Rebel Strength +${sadBoost}%.`;
   updateStats();
   resetButtons();
 }
