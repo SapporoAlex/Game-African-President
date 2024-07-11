@@ -1,4 +1,5 @@
 # African President: A 1960s Era Strategy Game
+https://sapporoalex.github.io/Game-African-President/
 
 <img src="https://github.com/SapporoAlex/Game-African-President/blob/main/preview.jpg" width="400px" height="auto">
 
