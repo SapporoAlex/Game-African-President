@@ -1,5 +1,5 @@
 # African President: A 1960s Era Strategy Game
-<a href="https://sapporoalex.github.io/Game-African-President/">Play Online</a>
+<a href="https://hamster-games.onrender.com/african_president/">Play Online</a>
 
 <img src="https://github.com/SapporoAlex/Game-African-President/blob/main/preview.jpg" width="400px" height="auto">
 
